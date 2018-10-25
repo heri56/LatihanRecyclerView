@@ -1,6 +1,5 @@
 package com.example.heriprastio.latihanrecyclerview;
 
-import android.graphics.drawable.Icon;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -20,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
                 new ItemView("Image Jetpack Android", R.drawable.imgandroidjetpack),
                 new ItemView("Android", R.drawable.andr),
                 new ItemView("Android Studio", R.drawable.asst),
-                new ItemView("Avengers",R.drawable.avengers_image),
+                new ItemView("Avengers", R.drawable.avengers_image),
                 new ItemView("Neptune", R.drawable.neptune)
         };
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.rview);
